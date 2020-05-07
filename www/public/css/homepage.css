@@ -1,0 +1,122 @@
+.homepage-container{
+    position: absolute;
+    background-color: CCCCCC;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-section{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    transform-origin: bottom center;
+}
+
+.homepage-section-base{
+    position: absolute;
+    top: 0%;
+    transform-origin: top center;
+    background: rgb(4,48,156);
+    background: linear-gradient(0deg, rgba(4,48,156,1) 0%, rgba(1,20,66,1) 100%);
+}
+
+.homepage-section-reverse{
+    position: absolute;
+    top: 50%;
+    transform-origin: top center;
+    transform:rotateX(90deg);
+    background: rgb(4,48,156);
+    background: linear-gradient(180deg, rgba(4,48,156,1) 0%, rgba(1,20,66,1) 100%);
+}
+
+.homepage-divider{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 0;
+}
+
+.homepage-reverse-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+}
+
+.homepage-divider-fold{
+    width: 0%;
+    opacity: 1;
+    height: 2px;
+    background-image: url("../img/dashed-line.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.homepage-fold-content{
+    margin: auto;
+    width: 80%;
+    max-width: 550px;
+    height: 100%;
+}
+
+.homepage-fold-upper-content-inner{
+    position: absolute;
+    bottom: 0px;
+}
+
+.homepage-title{
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+.homepage-body{
+    padding-top: 10px;
+}
+
+.homepage-sub{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+
+}
+
+.homepage-txt{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.homepage-btn-team{
+    position: absolute;
+    top: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.homepage-btn-about{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.homepage-txt-underline{
+    width: 100%;
+    height: 6px;
+    background-color: white;
+}
+
+.homepage-makerlab-logo{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/logo-makerlab.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}

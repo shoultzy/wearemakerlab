@@ -1,0 +1,19 @@
+html {
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+canvas {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #CCCCCC;
+}

@@ -1,0 +1,30 @@
+newmtl Deciduous_treetop_3
+Ka 0.580400 0.086300 0.086300
+Kd 0.580400 0.086300 0.086300
+Ks 0.000000 0.000000 0.000000
+adobe_interior_color 0.803922 0.803922 0.803922
+Ns 2.000000
+d 1.000000
+Tr 0.000000
+Pr 0.200000
+Pm 0.080000
+adobe_density 0.000000
+adobe_translucence 0.000000
+adobe_glow 0.000000
+map_Kd Deciduous_treetop_3 - Default Texture.psd 
+
+newmtl Tree_trunk_material_II
+Ka 0.411800 0.239200 0.054900
+Kd 0.411800 0.239200 0.054900
+Ks 0.000000 0.000000 0.000000
+adobe_interior_color 0.803922 0.803922 0.803922
+Ns 2.000000
+d 1.000000
+Tr 0.000000
+Pr 0.200000
+Pm 0.080000
+adobe_density 0.000000
+adobe_translucence 0.000000
+adobe_glow 0.000000
+map_Kd Tree_trunk_material_II - Default Texture.psd 
+

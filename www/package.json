@@ -1,0 +1,33 @@
+{
+  "name": "appengine-static-files",
+  "description": "Serving static files in Node.js sample for Google App Engine",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js --url localhost:8080/static/main.css"
+  },
+  "cloud-repo-tools": {
+    "test": {
+      "app": {
+        "msg": "background-color",
+        "port": 8080
+      }
+    }
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "three": "^0.115.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
