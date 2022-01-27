@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "three": "^0.115.0"
+    "three": "^0.137.0"
   },
   "devDependencies": {
     "mocha": "^7.0.0",
